@@ -1,0 +1,46 @@
+ body {
+        font-family: Arial, sans-serif;
+        background-color:yellow;
+      }
+      .task {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px 0;
+      }
+      .task button {
+        margin-left: 10px;
+      }
+      .lis {
+        border: none ;
+        border-radius: 8px;
+        background-color:#000000; 
+        max-width: 100%;
+        max-height: 15px;
+        color:aqua;
+        margin: 10px;
+        padding: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+      }
+    .box {
+      border: 2px double black;
+      border-radius: 6px; 
+      max-width: 100%;
+      max-height: 100%;
+   text-align: center;
+      }
+      #addBtn {
+
+        border-radius: 6px;
+        padding: 10px;
+        width: 80px;
+         background-color: #4000a7;
+        color: coral;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: 800;
+      }
+      :hover .addBtn {
+        background-color: #00000000;
+        transition: 2ms ease-in step-start ;
+      }
